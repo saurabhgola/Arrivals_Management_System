@@ -42,7 +42,7 @@ const FinishedArrivals: React.FC = () => {
 
   return (
     <div>
-      <h2>Finished Arrivals</h2>
+      <h2>Finished Arrivals @</h2>
       {error && <div style={{ color: "red" }}>{error}</div>}
       <table>
         <thead>
